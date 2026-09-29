@@ -1,0 +1,47 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * agreement_account
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-29 21:09+0000\n"
+"PO-Revision-Date: 2026-09-29 21:09+0000\n"
+"Last-Translator: \n"
+"Language: uk\n"
+"Language-Team: Ukrainian\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#. module: agreement_account
+msgid "# of Customer Invoices"
+msgstr "Кількість рахунків клієнтам"
+
+#. module: agreement_account
+msgid "# of Vendor Bills"
+msgstr "Кількість рахунків постачальників"
+
+#. module: agreement_account
+msgid "Agreement"
+msgstr "Договір"
+
+#. module: agreement_account
+msgid "Agreement Types"
+msgstr "Типи договорів"
+
+#. module: agreement_account
+msgid "Invoices"
+msgstr "Рахунки"
+
+#. module: agreement_account
+msgid "Journal Entry"
+msgstr "Бухгалтерський запис"
+
+#. module: agreement_account
+msgid "Vendor Bills"
+msgstr "Рахунки постачальників"
+

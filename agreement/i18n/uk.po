@@ -1,0 +1,330 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * agreement
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-29 21:09+0000\n"
+"PO-Revision-Date: 2026-09-29 21:09+0000\n"
+"Last-Translator: \n"
+"Language: uk\n"
+"Language-Team: Ukrainian\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#. module: agreement
+#. odoo-python
+#: code:addons/agreement/models/agreement.py
+#, python-format
+msgid "%(code)s (copy)"
+msgstr "%(code)s (копія)"
+
+#. module: agreement
+msgid "Action Needed"
+msgstr "Потрібна дія"
+
+#. module: agreement
+msgid "Active"
+msgstr "Діє"
+
+#. module: agreement
+msgid "Activities"
+msgstr "Дії"
+
+#. module: agreement
+msgid "Activity Exception Decoration"
+msgstr "Оформлення винятку дії"
+
+#. module: agreement
+msgid "Activity State"
+msgstr "Стан дії"
+
+#. module: agreement
+msgid "Activity Type Icon"
+msgstr "Піктограма типу дії"
+
+#. module: agreement
+msgid "Agreement"
+msgstr "Договір"
+
+#. module: agreement
+msgid "Agreement Name"
+msgstr "Назва договору"
+
+#. module: agreement
+msgid "Agreement Type"
+msgstr "Тип договору"
+
+#. module: agreement
+msgid "Agreement Types"
+msgstr "Типи договорів"
+
+#. module: agreement
+msgid "Agreements"
+msgstr "Договори"
+
+#. module: agreement
+msgid "Agreements Count"
+msgstr "Кількість договорів"
+
+#. module: agreement
+msgid "Archived"
+msgstr "В архіві"
+
+#. module: agreement
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: agreement
+msgid "Commercial Entity"
+msgstr "Комерційний контрагент"
+
+#. module: agreement
+msgid "Company"
+msgstr "Компанія"
+
+#. module: agreement
+msgid "Configuration"
+msgstr "Налаштування"
+
+#. module: agreement
+msgid "Contact"
+msgstr "Контакт"
+
+#. module: agreement
+msgid "Created by"
+msgstr "Створив"
+
+#. module: agreement
+msgid "Created on"
+msgstr "Створено"
+
+#. module: agreement
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: agreement
+msgid "Domain"
+msgstr "Домен"
+
+#. module: agreement
+msgid "End Date"
+msgstr "Дата закінчення дії"
+
+#. module: agreement
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: agreement
+msgid "Followers (Partners)"
+msgstr "Підписники (контрагенти)"
+
+#. module: agreement
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: agreement
+msgid "Has Message"
+msgstr "Є повідомлення"
+
+#. module: agreement
+msgid "ID"
+msgstr "ID"
+
+#. module: agreement
+msgid "ID used for internal contract tracking."
+msgstr "Ідентифікатор для внутрішнього обліку договорів."
+
+#. module: agreement
+msgid "Icon"
+msgstr "Піктограма"
+
+#. module: agreement
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення винятку в дії."
+
+#. module: agreement
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: agreement
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: agreement
+msgid "If unchecked, it will allow you to hide the agreement without removing it."
+msgstr "Якщо зняти позначку, договір можна приховати без його видалення."
+
+#. module: agreement
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: agreement
+msgid "Is a Template?"
+msgstr "Це шаблон?"
+
+#. module: agreement
+msgid "Last Updated by"
+msgstr "Останні зміни вніс"
+
+#. module: agreement
+msgid "Last Updated on"
+msgstr "Остання зміна"
+
+#. module: agreement
+msgid "Message Delivery error"
+msgstr "Помилка доставки повідомлення"
+
+#. module: agreement
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: agreement
+msgid "My Activity Deadline"
+msgstr "Кінцевий термін моєї дії"
+
+#. module: agreement
+msgid "Name"
+msgstr "Назва"
+
+#. module: agreement
+msgid "Name or Number"
+msgstr "Назва або номер"
+
+#. module: agreement
+msgid "Next Activity Deadline"
+msgstr "Кінцевий термін наступної дії"
+
+#. module: agreement
+msgid "Next Activity Summary"
+msgstr "Опис наступної дії"
+
+#. module: agreement
+msgid "Next Activity Type"
+msgstr "Тип наступної дії"
+
+#. module: agreement
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: agreement
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: agreement
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: agreement
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: agreement
+msgid "Partner"
+msgstr "Контрагент"
+
+#. module: agreement
+#. odoo-python
+#: code:addons/agreement/models/agreement.py
+msgid "Purchase"
+msgstr "Закупівля"
+
+#. module: agreement
+msgid "Reference"
+msgstr "Реєстраційний номер"
+
+#. module: agreement
+msgid "Reporting"
+msgstr "Звітність"
+
+#. module: agreement
+msgid "Responsible User"
+msgstr "Відповідальний користувач"
+
+#. module: agreement
+#. odoo-python
+#: code:addons/agreement/models/agreement.py
+msgid "Sale"
+msgstr "Продаж"
+
+#. module: agreement
+msgid "Search Agreements"
+msgstr "Пошук договорів"
+
+#. module: agreement
+msgid "Select the type of agreement"
+msgstr "Виберіть тип договору"
+
+#. module: agreement
+msgid ""
+"Set if the agreement is a template. Template agreements don't require a "
+"partner."
+msgstr ""
+"Позначте, якщо договір є шаблоном. Для шаблонів договорів контрагент не "
+"обов’язковий."
+
+#. module: agreement
+msgid "Settings"
+msgstr "Налаштування"
+
+#. module: agreement
+msgid "Signature Date"
+msgstr "Дата підписання"
+
+#. module: agreement
+msgid "Start Date"
+msgstr "Дата початку дії"
+
+#. module: agreement
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Статус на основі дій\n"
+"Прострочено: кінцевий термін уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: agreement
+msgid "The customer or vendor this agreement is related to."
+msgstr "Замовник або постачальник, з яким пов’язаний цей договір."
+
+#. module: agreement
+msgid "This agreement code already exists for this commercial entity!"
+msgstr "Такий код договору вже існує для цього комерційного контрагента!"
+
+#. module: agreement
+msgid "Title"
+msgstr "Назва"
+
+#. module: agreement
+msgid "Type Name"
+msgstr "Назва типу"
+
+#. module: agreement
+msgid "Type of the exception activity on record."
+msgstr "Тип винятку дії в записі."
+
+#. module: agreement
+msgid "Use agreement template"
+msgstr "Використовувати шаблони договорів"
+
+#. module: agreement
+msgid "Use agreement type"
+msgstr "Використовувати типи договорів"
+
+#. module: agreement
+msgid "When the agreement ends."
+msgstr "Дата, коли договір закінчується."
+
+#. module: agreement
+msgid "When the agreement starts."
+msgstr "Дата, коли договір починає діяти."
+

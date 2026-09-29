@@ -1,0 +1,67 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * agreement_sale
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-29 21:09+0000\n"
+"PO-Revision-Date: 2026-09-29 21:09+0000\n"
+"Last-Translator: \n"
+"Language: uk\n"
+"Language-Team: Ukrainian\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#. module: agreement_sale
+msgid "# Sale Orders"
+msgstr "Кількість замовлень на продаж"
+
+#. module: agreement_sale
+msgid "Agreement"
+msgstr "Договір"
+
+#. module: agreement_sale
+msgid "Agreement Type"
+msgstr "Тип договору"
+
+#. module: agreement_sale
+msgid "Agreement types"
+msgstr "Типи договорів"
+
+#. module: agreement_sale
+msgid "Agreements"
+msgstr "Договори"
+
+#. module: agreement_sale
+msgid "Config Settings"
+msgstr "Налаштування"
+
+#. module: agreement_sale
+msgid "Have a special kind of agreements which act as templates"
+msgstr "Використовувати окремий вид договорів як шаблони"
+
+#. module: agreement_sale
+msgid "Manage agreements by types"
+msgstr "Керувати договорами за типами"
+
+#. module: agreement_sale
+msgid "Sale Orders"
+msgstr "Замовлення на продаж"
+
+#. module: agreement_sale
+msgid "Sales Order"
+msgstr "Замовлення на продаж"
+
+#. module: agreement_sale
+msgid "Use agreement template"
+msgstr "Використовувати шаблони договорів"
+
+#. module: agreement_sale
+msgid "Use agreement types"
+msgstr "Використовувати типи договорів"
+
