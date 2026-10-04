@@ -9,12 +9,12 @@ msgstr ""
 "POT-Creation-Date: 2026-09-29 21:09+0000\n"
 "PO-Revision-Date: 2026-09-29 21:09+0000\n"
 "Last-Translator: \n"
-"Language: uk\n"
 "Language-Team: Ukrainian\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
 #. module: agreement
@@ -49,8 +49,9 @@ msgid "Activity Type Icon"
 msgstr "Піктограма типу дії"
 
 #. module: agreement
+#: model:ir.module.module,shortdesc:base.module_agreement
 msgid "Agreement"
-msgstr "Договір"
+msgstr "Угода"
 
 #. module: agreement
 msgid "Agreement Name"
@@ -261,12 +262,8 @@ msgid "Select the type of agreement"
 msgstr "Виберіть тип договору"
 
 #. module: agreement
-msgid ""
-"Set if the agreement is a template. Template agreements don't require a "
-"partner."
-msgstr ""
-"Позначте, якщо договір є шаблоном. Для шаблонів договорів контрагент не "
-"обов’язковий."
+msgid "Set if the agreement is a template. Template agreements don't require a partner."
+msgstr "Позначте, якщо договір є шаблоном. Для шаблонів договорів контрагент не обов’язковий."
 
 #. module: agreement
 msgid "Settings"
@@ -327,4 +324,3 @@ msgstr "Дата, коли договір закінчується."
 #. module: agreement
 msgid "When the agreement starts."
 msgstr "Дата, коли договір починає діяти."
-
