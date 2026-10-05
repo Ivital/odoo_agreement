@@ -187,3 +187,43 @@ msgstr "Призупинено"
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: agreement_serviceprofile
+#: model_terms:ir.ui.view,arch_db:agreement_serviceprofile.agreement_fsm_order_form_view
+msgid "Add notes here..."
+msgstr "Додайте примітки тут..."
+
+#. module: agreement_serviceprofile
+#: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: agreement_serviceprofile
+#: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: agreement_serviceprofile
+#: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: agreement_serviceprofile
+#: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: agreement_serviceprofile
+#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__product_variant_id
+msgid "Service Product Variant"
+msgstr "Варіант товару-послуги"
+
+#. module: agreement_serviceprofile
+#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__use_product_variant
+msgid "Use Product Variant"
+msgstr "Використовувати варіант товару"
+
+#. module: agreement_serviceprofile
+#: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"

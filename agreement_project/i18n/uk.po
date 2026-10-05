@@ -32,3 +32,8 @@ msgstr "Завдання"
 #: model_terms:ir.actions.act_window,help:agreement_project.action_project_task_agreement_specific
 msgid "Create Tasks"
 msgstr "Створити завдання"
+
+#. module: agreement_project
+#: model_terms:ir.ui.view,arch_db:agreement_project.partner_agreement_form_view_task
+msgid "<span class=\"o_stat_text\">Tasks</span>"
+msgstr "<span class=\"o_stat_text\">Завдання</span>"

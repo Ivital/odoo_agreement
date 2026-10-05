@@ -469,3 +469,129 @@ msgstr "До виставлення рахунку"
 #: model:ir.model.fields.selection,name:agreement_rebate.selection__agreement_invoice_create_wiz__invoice_type__in_refund
 msgid "Vendor Credit Note"
 msgstr "Кредит-нота постачальника"
+
+#. module: agreement_rebate
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.agreement_form
+msgid ""
+"<i class=\"fa fa-filter\"/>\n"
+"                            You can create a filter to apply the rebate.\n"
+"                            Categories, products, variants, generic conditions to reuse or a custom filter"
+msgstr ""
+"<i class=\"fa fa-filter\"/>\n"
+"                            Ви можете створити фільтр для застосування знижки.\n"
+"                            Категорії, товари, варіанти, загальні умови для повторного використання або власний фільтр"
+
+#. module: agreement_rebate
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.agreement_rebate_settlement_form
+msgid "<span>Agreement</span>"
+msgstr "<span>Угода</span>"
+
+#. module: agreement_rebate
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.agreement_rebate_settlement_form
+msgid "<span>Details</span>"
+msgstr "<span>Деталі</span>"
+
+#. module: agreement_rebate
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.agreement_rebate_settlement_form
+msgid "<span>Lines</span>"
+msgstr "<span>Рядки</span>"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement__additional_consumption
+msgid "Additional Consumption"
+msgstr "Додаткове споживання"
+
+#. module: agreement_rebate
+#: model:ir.actions.act_window,name:agreement_rebate.agreement_rebate_condition_action
+msgid "Agreement rebate conditions"
+msgstr "Умови знижки за угодою"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement__rebate_line_ids
+msgid "Agreement rebate lines"
+msgstr "Рядки знижок за угодою"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement__rebate_section_ids
+msgid "Agreement rebate sections"
+msgstr "Розділи знижок за угодою"
+
+#. module: agreement_rebate
+#: model:ir.actions.act_window,name:agreement_rebate.agreement_rebate_settlement_line_action
+msgid "Agreement settlement lines"
+msgstr "Рядки розрахунків за угодою"
+
+#. module: agreement_rebate
+#: model:ir.actions.act_window,name:agreement_rebate.agreement_rebate_settlement_action
+msgid "Agreement settlements"
+msgstr "Розрахунки за договорами"
+
+#. module: agreement_rebate
+#: model:ir.model.fields.selection,name:agreement_rebate.selection__agreement__rebate_type__section_prorated
+msgid "Calculate the discount in each amount section"
+msgstr "Обчислювати знижку в кожній секції суми"
+
+#. module: agreement_rebate
+#: model:ir.model.fields.selection,name:agreement_rebate.selection__agreement_invoice_create_wiz__invoice_group__commercial_partner
+msgid "Commercial partner"
+msgstr "Комерційний партнер"
+
+#. module: agreement_rebate
+#: model:ir.model.fields.selection,name:agreement_rebate.selection__agreement__rebate_type__section_total
+msgid "Compute total and apply discount rule match"
+msgstr "Обчислити загальну суму та застосувати правило знижки"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_settlement_create_wiz__discard_settled_agreement
+msgid "Discard settled agreements"
+msgstr "Відхилити врегульовані угоди"
+
+#. module: agreement_rebate
+#: model:ir.model.fields.selection,name:agreement_rebate.selection__agreement__rebate_type__global
+msgid "Global (A discount global for all lines)"
+msgstr "Глобально (одна знижка для всіх рядків)"
+
+#. module: agreement_rebate
+#: model:ir.model.fields.selection,name:agreement_rebate.selection__agreement__rebate_type__line
+msgid "Line (A discount for every line)"
+msgstr "Рядок (знижка для кожного рядка)"
+
+#. module: agreement_rebate
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.agreement_rebate_settlement_search
+msgid "Name or agreement code"
+msgstr "Назва або код угоди"
+
+#. module: agreement_rebate
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.agreement_rebate_settlement_form
+msgid "Rebate Settlements"
+msgstr "Розрахунки знижок"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_settlement_line__settlement_id
+msgid "Rebate settlement"
+msgstr "Розрахунок знижки"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_invoice_create_wiz__settlements_ids
+msgid "Rebate settlements"
+msgstr "Розрахунки знижок"
+
+#. module: agreement_rebate
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.agreement_rebate_settlement_search
+msgid "Search agreement settlements"
+msgstr "Пошук розрахунків за угодами"
+
+#. module: agreement_rebate
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.agreement_rebate_settlement_line_search
+msgid "Search settlement lines"
+msgstr "Пошук рядків розрахунків"
+
+#. module: agreement_rebate
+#: model:ir.actions.act_window,name:agreement_rebate.agreement_settlement_create_action
+msgid "Settlement create"
+msgstr "Створення розрахунку"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_account_move_line__agreement_rebate_settlement_line_ids
+msgid "Settlement lines"
+msgstr "Рядки розрахунків"
