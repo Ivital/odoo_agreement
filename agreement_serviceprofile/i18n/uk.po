@@ -227,3 +227,26 @@ msgstr "Використовувати варіант товару"
 #: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: agreement_serviceprofile
+#: model:ir.model,name:agreement_serviceprofile.model_agreement_serviceprofile
+msgid "Agreement Service Profiles"
+msgstr "Профілі послуг угоди"
+
+#. module: agreement_serviceprofile
+#: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__active
+msgid ""
+"If unchecked, it will allow you to hide this service profile without "
+"removing it."
+msgstr ""
+"Якщо вимкнено, цей профіль сервісу можна приховати без його видалення."
+
+#. module: agreement_serviceprofile
+#: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__partner_id
+msgid "The customer or vendor this agreement is related to."
+msgstr "Клієнт або постачальник, з яким пов’язана ця угода."
+
+#. module: agreement_serviceprofile
+#: model:agreement.stage,name:agreement_serviceprofile.servpro_stage_renew
+msgid "To Renew"
+msgstr "До поновлення"

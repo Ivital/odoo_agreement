@@ -595,3 +595,56 @@ msgstr "Створення розрахунку"
 #: model:ir.model.fields,field_description:agreement_rebate.field_account_move_line__agreement_rebate_settlement_line_ids
 msgid "Settlement lines"
 msgstr "Рядки розрахунків"
+
+#. module: agreement_rebate
+#: model:ir.model,name:agreement_rebate.model_agreement_rebate_condition
+msgid "Agreement Rebate Condition"
+msgstr "Умова знижки за угодою"
+
+#. module: agreement_rebate
+#: model:ir.model,name:agreement_rebate.model_agreement_rebate_line
+msgid "Agreement Rebate Lines"
+msgstr "Рядки знижки за угодою"
+
+#. module: agreement_rebate
+#: model:ir.model,name:agreement_rebate.model_agreement_rebate_section
+msgid "Agreement Rebate Section"
+msgstr "Розділ знижки за угодою"
+
+#. module: agreement_rebate
+#: model:ir.model,name:agreement_rebate.model_agreement_rebate_settlement
+msgid "Agreement Rebate Settlement"
+msgstr "Розрахунок знижки за угодою"
+
+#. module: agreement_rebate
+#: model:ir.model,name:agreement_rebate.model_agreement_rebate_settlement_line
+msgid "Agreement Rebate Settlement Lines"
+msgstr "Рядки розрахунку знижки за угодою"
+
+#. module: agreement_rebate
+#: model:ir.model,name:agreement_rebate.model_agreement_invoice_create_wiz
+msgid "Agreement invoice create wizard"
+msgstr "Майстер створення рахунка за угодою"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,help:agreement_rebate.field_agreement_settlement_create_wiz__discard_settled_agreement
+msgid ""
+"If checked, the agreements with settlements in selected period will be "
+"discard"
+msgstr ""
+"Якщо позначено, угоди з розрахунками у вибраному періоді буде відкинуто"
+
+#. module: agreement_rebate
+#: model:agreement.type,name:agreement_rebate.agreement_type_rebate_purchase
+msgid "Rebate agreements for purchases"
+msgstr "Угоди про знижки для закупівель"
+
+#. module: agreement_rebate
+#: model:agreement.type,name:agreement_rebate.agreement_type_rebate_sale
+msgid "Rebate agreements for sales"
+msgstr "Угоди про знижки для продажів"
+
+#. module: agreement_rebate
+#: model:res.groups,name:agreement_rebate.group_use_agreement_rebate
+msgid "Use agreement rebate"
+msgstr "Використовувати знижку за угодою"
