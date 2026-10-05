@@ -243,3 +243,229 @@ msgstr "Рахунок постачальника"
 #: model:ir.model.fields,field_description:agreement_rebate.field_agreement__rebate_type
 msgid "rebate type"
 msgstr "тип ребейту"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_invoice_create_wiz__agreement_type_ids
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_settlement_create_wiz__agreement_type_ids
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.view_invoice_create_wiz
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.view_settlement_create_wiz
+msgid "Agreement types"
+msgstr "Типи угод"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_settlement_line__amount_gross
+msgid "Amount Gross"
+msgstr "Сума брутто"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_settlement__amount_invoiced
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_settlement_line__amount_invoiced
+msgid "Amount Invoiced"
+msgstr "Виставлена сума"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_settlement__amount_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_settlement_line__amount_rebate
+msgid "Amount Rebate"
+msgstr "Сума знижки"
+
+#. module: agreement_rebate
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.view_invoice_create_wiz
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.view_settlement_create_wiz
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: agreement_rebate
+#: model:ir.model.fields.selection,name:agreement_rebate.selection__agreement_invoice_create_wiz__invoice_type__out_refund
+msgid "Customer Credit Note"
+msgstr "Кредит-нота клієнта"
+
+#. module: agreement_rebate
+#: model:ir.model.fields.selection,name:agreement_rebate.selection__agreement_invoice_create_wiz__invoice_type__out_invoice
+msgid "Customer Invoice"
+msgstr "Рахунок клієнту"
+
+#. module: agreement_rebate
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.view_invoice_create_wiz
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.view_settlement_create_wiz
+msgid "Dates filter"
+msgstr "Фільтр дат"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_invoice_create_wiz__invoice_partner_id
+msgid "Force invoice to"
+msgstr "Примусово виставити рахунок для"
+
+#. module: agreement_rebate
+#: model:ir.model.fields.selection,name:agreement_rebate.selection__agreement_rebate_settlement_line__invoice_status__invoiced
+msgid "Fully Invoiced"
+msgstr "Повністю виставлено рахунок"
+
+#. module: agreement_rebate
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.agreement_rebate_settlement_line_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_invoice_create_wiz__invoice_group
+msgid "Group invoice by"
+msgstr "Групувати рахунок за"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_settlement_line__invoice_status
+msgid "Invoice Status"
+msgstr "Статус рахунку"
+
+#. module: agreement_rebate
+#: model:ir.actions.act_window,name:agreement_rebate.agreement_invoice_create_action
+msgid "Invoice create"
+msgstr "Створити рахунок"
+
+#. module: agreement_rebate
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.view_invoice_create_wiz
+msgid "Invoice data"
+msgstr "Дані рахунку"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_settlement_line__invoice_line_ids
+msgid "Invoice lines"
+msgstr "Рядки рахунка"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement__is_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_type__is_rebate
+msgid "Is rebate agreement type"
+msgstr "Є типом угоди зі знижкою"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_invoice_create_wiz__write_uid
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_condition__write_uid
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_line__write_uid
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_section__write_uid
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_settlement__write_uid
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_settlement_line__write_uid
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_settlement_create_wiz__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_invoice_create_wiz__write_date
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_condition__write_date
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_line__write_date
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_section__write_date
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_settlement__write_date
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_settlement_line__write_date
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_settlement_create_wiz__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: agreement_rebate
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.agreement_rebate_settlement_line_search
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.agreement_rebate_settlement_search
+msgid "Not invoiced"
+msgstr "Не виставлено рахунок"
+
+#. module: agreement_rebate
+#: model:ir.model.fields.selection,name:agreement_rebate.selection__agreement_rebate_settlement_line__invoice_status__no
+msgid "Nothing to Invoice"
+msgstr "Немає що виставляти"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_line__rebate_category_ids
+#: model:ir.model.fields.selection,name:agreement_rebate.selection__agreement_rebate_line__rebate_target__category
+msgid "Product categories"
+msgstr "Категорії товарів"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_line__rebate_product_tmpl_ids
+#: model:ir.model.fields.selection,name:agreement_rebate.selection__agreement_rebate_line__rebate_target__product_tmpl
+msgid "Product templates"
+msgstr "Шаблони товарів"
+
+#. module: agreement_rebate
+#: model:ir.model.fields.selection,name:agreement_rebate.selection__agreement_rebate_line__rebate_target__product
+msgid "Product variant"
+msgstr "Варіант товару"
+
+#. module: agreement_rebate
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.agreement_form
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.agreement_search
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.agreement_type_search
+msgid "Rebate"
+msgstr "Знижка"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement__rebate_discount
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_line__rebate_discount
+msgid "Rebate Discount"
+msgstr "Знижка за ребейтом"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_line__rebate_domain
+msgid "Rebate Domain"
+msgstr "Домен знижки"
+
+#. module: agreement_rebate
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.agreement_rebate_line_form
+msgid "Rebate Lines"
+msgstr "Рядки знижок"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_line__rebate_target
+msgid "Rebate Target"
+msgstr "Ціль знижки"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_condition__name
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_line__rebate_condition_id
+#: model:ir.model.fields.selection,name:agreement_rebate.selection__agreement_rebate_line__rebate_target__condition
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.agreement_rebate_condition_form
+msgid "Rebate condition"
+msgstr "Умова знижки"
+
+#. module: agreement_rebate
+#: model:ir.model.fields.selection,name:agreement_rebate.selection__agreement_rebate_line__rebate_target__domain
+msgid "Rebate domain"
+msgstr "Домен знижки"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_settlement_line__rebate_section_id
+msgid "Rebate section"
+msgstr "Розділ знижки"
+
+#. module: agreement_rebate
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.agreement_form
+msgid "Sections"
+msgstr "Розділи"
+
+#. module: agreement_rebate
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.agreement_rebate_line_form
+msgid "Select items"
+msgstr "Виберіть елементи"
+
+#. module: agreement_rebate
+#: model:ir.model.fields.selection,name:agreement_rebate.selection__agreement_invoice_create_wiz__invoice_group__settlement
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.agreement_rebate_settlement_line_search
+msgid "Settlement"
+msgstr "Розрахунок"
+
+#. module: agreement_rebate
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.agreement_rebate_settlement_form
+#: model_terms:ir.ui.view,arch_db:agreement_rebate.agreement_rebate_settlement_line_tree
+msgid "Show details"
+msgstr "Показати деталі"
+
+#. module: agreement_rebate
+#: model:ir.model.fields,field_description:agreement_rebate.field_agreement_rebate_settlement_line__target_domain
+msgid "Target Domain"
+msgstr "Цільовий домен"
+
+#. module: agreement_rebate
+#: model:ir.model.fields.selection,name:agreement_rebate.selection__agreement_rebate_settlement_line__invoice_status__to_invoice
+msgid "To Invoice"
+msgstr "До виставлення рахунку"
+
+#. module: agreement_rebate
+#: model:ir.model.fields.selection,name:agreement_rebate.selection__agreement_invoice_create_wiz__invoice_type__in_refund
+msgid "Vendor Credit Note"
+msgstr "Кредит-нота постачальника"

@@ -110,3 +110,80 @@ msgstr "Профілі послуг"
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__stage_id
 msgid "Stage"
 msgstr "Етап"
+
+#. module: agreement_serviceprofile
+#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_needaction
+msgid "Action Needed"
+msgstr "Потрібна дія"
+
+#. module: agreement_serviceprofile
+#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_attachment_count
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: agreement_serviceprofile
+#: model:agreement.stage,name:agreement_serviceprofile.servpro_stage_draft
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: agreement_serviceprofile
+#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Підписники (контрагенти)"
+
+#. module: agreement_serviceprofile
+#: model:agreement.stage,name:agreement_serviceprofile.servpro_stage_progress
+msgid "In Progress"
+msgstr "У процесі"
+
+#. module: agreement_serviceprofile
+#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: agreement_serviceprofile
+#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: agreement_serviceprofile
+#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_has_error
+msgid "Message Delivery error"
+msgstr "Помилка доставки повідомлення"
+
+#. module: agreement_serviceprofile
+#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: agreement_serviceprofile
+#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_has_error_counter
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: agreement_serviceprofile
+#: model_terms:ir.ui.view,arch_db:agreement_serviceprofile.agreement_serviceprofile_search
+msgid "Product Variant"
+msgstr "Варіант товару"
+
+#. module: agreement_serviceprofile
+#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__product_id
+msgid "Service Product"
+msgstr "Товар-послуга"
+
+#. module: agreement_serviceprofile
+#: model:ir.model.fields.selection,name:agreement_serviceprofile.selection__agreement_stage__stage_type__serviceprofile
+#: model:ir.model.fields.selection,name:agreement_serviceprofile.selection__product_template__service_tracking__serviceprofile
+#: model_terms:ir.ui.view,arch_db:agreement_serviceprofile.agreement_serviceprofile_form
+msgid "Service Profile"
+msgstr "Профіль послуги"
+
+#. module: agreement_serviceprofile
+#: model:agreement.stage,name:agreement_serviceprofile.servpro_stage_suspend
+msgid "Suspended"
+msgstr "Призупинено"
+
+#. module: agreement_serviceprofile
+#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__website_message_ids
+msgid "Website Messages"
+msgstr "Повідомлення вебсайту"

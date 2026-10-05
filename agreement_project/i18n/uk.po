@@ -27,3 +27,8 @@ msgstr "Проєкти"
 #: model:ir.actions.act_window,name:agreement_project.action_project_task_agreement_specific
 msgid "Tasks"
 msgstr "Завдання"
+
+#. module: agreement_project
+#: model_terms:ir.actions.act_window,help:agreement_project.action_project_task_agreement_specific
+msgid "Create Tasks"
+msgstr "Створити завдання"
