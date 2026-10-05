@@ -648,3 +648,9 @@ msgstr "Угоди про знижки для продажів"
 #: model:res.groups,name:agreement_rebate.group_use_agreement_rebate
 msgid "Use agreement rebate"
 msgstr "Використовувати знижку за угодою"
+
+#. module: agreement_rebate
+#. odoo-python
+#: code:addons/agreement_rebate/models/account_move_line.py:0
+msgid "Period: %s - %s"
+msgstr "Період: %s - %s"
